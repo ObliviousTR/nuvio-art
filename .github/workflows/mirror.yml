@@ -1,0 +1,24 @@
+name: Mirror art
+on:
+  workflow_dispatch:
+  push:
+    paths: ["mirror/urls.json"]
+permissions:
+  contents: write
+concurrency: {group: art-writes, cancel-in-progress: false}
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q pillow
+      - run: python3 scripts/mirror.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mirror
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Mirror art $(date -u +%F)"
+          git pull -q --rebase && git push -q
