@@ -1,6 +1,5 @@
-X-Men line-up card, rendered by nuvio-awards/art_tools/xmen_lineup.py:
-  python3 art_tools/xmen_lineup.py <this _src dir> <out dir>
-- cut_*.png: figures cut out (rembg u2net_human_seg) from official character posters on TMDB
-  (Days of Future Past character posters, X-Men: The Last Stand, Deadpool).
-- logo.png: the X-Men (2000) title logo on TMDB.
-- Oswald: SIL Open Font License, included.
+X-Men card (Cerebro ident), rendered by nuvio-awards/art_tools/xmen_cerebro.py:
+  python3 art_tools/xmen_cerebro.py <this _src dir> <out dir>
+- logo.png: X-Men (2000) title logo on TMDB (film 36657, logo 95CuakhPlgMgdhkxbQEIqa6I0OB).
+- Michroma (THE COLLECTION): SIL Open Font License, included (OFL-michroma.txt).
+- backdrop.jpg is unchanged.
