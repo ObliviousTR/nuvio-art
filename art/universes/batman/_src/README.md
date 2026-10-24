@@ -1,8 +1,7 @@
-Batman & Gotham card, rendered by nuvio-awards/art_tools/batman_signal.py:
-  python3 art_tools/batman_signal.py <this _src dir> <out dir>
-- bat.json: outline of the bat and its oval in the 1989 Batman emblem (TMDB logo of film 268), traced by
-  nuvio-awards/art_tools/_wip_batman/tools/batjson.py on the wip/batman-signal-v3 branch.
-- title.png: the Batman (1989) title logo on TMDB.
-- stills/NN_*.jpg: one backdrop per era (TMDB / fanart.tv), in strip order; NN_*.json: framing in the bat
-  ("v3": fx/fy = centre of the face, fh = its height, all as shares of the still; gain = brightness).
+Batman card (title ident), rendered by nuvio-awards/art_tools/batman_ident.py:
+  python3 art_tools/batman_ident.py <this _src dir> <out dir>
+- title.png: The Batman (2022) title logo on TMDB (film 414906, logo haibnO2TycgulXD1Fj7b94L9m9E).
+- title_nobat.png / title_batmask.png: the letters with the welded bat taken out, and the bat's mask; built from
+  title.png by the script's prep() on the first run (delete them to rebuild).
 - Oswald (THE COLLECTION): SIL Open Font License, included.
+- backdrop.jpg is unchanged (Batman 1989 still).
