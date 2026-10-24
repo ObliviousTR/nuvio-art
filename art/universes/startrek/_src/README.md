@@ -1,7 +1,7 @@
-Star Trek card, rendered by nuvio-awards/art_tools/startrek_warp.py:
-  python3 art_tools/startrek_warp.py <this _src dir> <out dir>
-- logo.png: the STAR TREK wordmark on TMDB (Star Trek, 2009).
-- elements/*.png: people and ships cut out of official TMDB backdrops (Star Trek TOS, The Wrath of Khan, TNG, DS9,
-  Voyager, Star Trek 2009, Discovery, Picard, Strange New Worlds) with rembg (isnet-general-use);
-  nuvio-awards/art_tools/_wip_startrek/cutone.py on the wip/startrek-warp branch shows the crops used.
+Star Trek card (franchise ident), rendered by nuvio-awards/art_tools/startrek_delta.py:
+  python3 art_tools/startrek_delta.py <this _src dir> <out dir>
+- logo_plate.jpg: the 2016 Star Trek franchise logo art (STAR, the glass delta with the gold star, TREK, on black with its
+  own flare and light line). The script splits it into its soft glow (faded out towards the edges, the card's own flare
+  carries the light on) and the logo itself.
 - Antonio (THE COLLECTION): SIL Open Font License, included.
+- backdrop.jpg is unchanged.
