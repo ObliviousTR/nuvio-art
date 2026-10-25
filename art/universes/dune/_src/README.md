@@ -1,3 +1,5 @@
+Published with nuvio-awards/art_tools/dune_calm.py (the worm card with the action brought forward and the title on its own plane).
+
 Dune card (sandworm ident), rendered by nuvio-awards/art_tools/dune_ident.py:
   python3 art_tools/dune_ident.py <this _src dir> <out dir> --mode worm
 - logo.png: the Dune (2021) title logo on TMDB (film 438631), copper, with the glint on the E.

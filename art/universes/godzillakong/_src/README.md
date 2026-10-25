@@ -1,3 +1,5 @@
+Published with nuvio-awards/art_tools/gk_calm.py (the storm card with the title on its own plane and thunder shake).
+
 Godzilla & Kong card (storm ident), rendered by nuvio-awards/art_tools/gk_ident.py:
   python3 art_tools/gk_ident.py <this _src dir> <out dir> --mode storm
 - logo.png: the GODZILLA x KONG line of the Godzilla x Kong: The New Empire title logo on TMDB, shaded as brushed steel

@@ -1,3 +1,5 @@
+Published with nuvio-awards/art_tools/middleearth_calm.py (no embers, no heat shimmer; the heat starts in the first frames).
+
 Middle-earth card (the Ring's inscription burns round the title), rendered by nuvio-awards/art_tools/middleearth_ident.py:
   python3 art_tools/middleearth_ident.py <this _src dir> <out dir> --title ring
 - inscription.png: the One Ring inscription, the official logo of film 120 on TMDB (no language), downscaled.
